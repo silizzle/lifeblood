@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<!-- audio: Tomorrow Is Now! (suite) -->
+		<!-- audio corresponding to quote begins playing on document load -->
+		<audio autoplay>
+  			<source src="./audio/Track 4_Tomorrow Is Now_Clip.mp4" type="audio/mp4">
+		Your browser does not support the audio element.
+		</audio>
+
+
+		<div id="vids">
+		<!-- vid: NY Times feature after his death -->
+			<video width="480" height="560" controls poster="./images/tomorrow_is_now_img.jpg" alt="tomorrow_is_now" onclick="this.paused?this.play():this.pause();">
+				<source src="./video/Track 4_Interview_Fred Ho- The Music Lives On.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+			</video>
+
+
+		<!-- vid: Fred Ho Lives on! -->
+			<video width="480" height="560" controls poster="./images/we_refuse_img.jpg" alt="we_refuse" onclick="this.paused?this.play():this.pause();">
+				<source src="./video/Track 4_Fred Ho's Band Plays On!.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+			</video>				
+		</div>
+
+
+		<a href="./track_4.html" id="track_6" onclick="document.location=this.id+'.html';return false;" >
+			<img src="./images/Track 6_ICON_dinner plate new.png" alt="to_done" class="thumbnails" style="position:absolute; right:10px" />
+		</a>
+	</body>
+</html>
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<!-- img: liner notes to Sonia Sanchez's poem -->
+		<!-- serves as background, put transparent areas/images over spots we want to play audio on hover -->
+		<!-- resize image it's huge -->
+		<div>
+			<img src="./images/a_black_woman_speaks_img.jpg" width="960" height="1205" alt="a_black_woman_speaks" class="thumbnails" usemap="#salvationmap">
+		</div>
+
+		<map name="salvationmap">
+		  <a href="./track_3.html" id="track_2" onclick="document.location=this.id+'.html';return false;" ><area shape="rect" coords="243,302,310,323" alt="salvation_is_the_answer"></a>
+		  <a href="./track_3.html" id="track_3_for_colored_girls" onclick="document.location=this.id+'.html';return false;" ><area shape="rect" coords="600,515,765,550" alt="for_colored_girls"></a>
+		</map>/>
+
+			
+
+		<!-- audio: A Black Woman Speaks by Sonia Sanchez -->
+		<!-- audio corresponding to quote begins playing on document load -->
+		<audio autoplay>
+  			<source src="./audio/A Black-Woman-Speaks.mp3" type="audio/mp3">
+		Your browser does not support the audio element.
+		</audio>
+	</body>
+</html>
+
